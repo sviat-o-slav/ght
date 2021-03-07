@@ -1,0 +1,13 @@
+{
+    "name": "sviatoslav/gittest",
+    "description": "This is the test Composer description",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "loneybibi",
+            "email": "loneybibi@gmail.com"
+        }
+    ],
+    "require": {}
+}
