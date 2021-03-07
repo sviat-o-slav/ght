@@ -1,5 +1,5 @@
 {
-    "name": "sviatoslav/gittest",
+    "name": "sviat-o-slav/gittest",
     "description": "This is the test Composer description",
     "type": "project",
     "license": "GPL",
@@ -10,9 +10,15 @@
         }
     ],
     "require": {
-        "tightenco/collect": "^8.19"
+        "tightenco/collect": "^8.19",
+        "funct/funct": "^1.5"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+	"files": [
+		"src/Runner.php"
+	]
     }
 }
